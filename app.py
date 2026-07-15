@@ -5,9 +5,9 @@ import os
 st.set_page_config(page_title="Ollama RAG Demo", layout="centered")
 st.title("R Cybersecurity")
 st.write(
-    "[+]Lets talk some tech!"
-    "[+]Build for Cyber world"
-    "[+]Lets perform some LLMS"
+    "[+]Lets talk some tech!\n"
+    "[+]Build for Cyber world\n"
+    "[+]Lets perform some LLMS\n"
 )
 
 # Model Configurations
