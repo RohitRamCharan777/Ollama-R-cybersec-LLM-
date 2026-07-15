@@ -1,0 +1,16 @@
+[project]
+name = "vulnerability-assistant"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.139.0",
+    "httpx>=0.28.1",
+    "numpy>=2.5.1",
+    "pydantic>=2.13.4",
+    "pydantic-settings>=2.14.2",
+    "streamlit>=1.59.2",
+    "uvicorn>=0.51.0",
+    "ollama>=0.4.7",
+]

@@ -1,0 +1,38 @@
+SQL Injection (SQLi) Description: Injects malicious SQL into application queries to read, modify, or delete database data. Related CVEs / References: CVE-2012-1823, CVE-2022-22965
+Cross-Site Scripting (XSS) Description: Injects JavaScript into trusted web pages to steal cookies, sessions, or perform actions as the victim. Related CVEs / References: CVE-2020-11022, CVE-2023-29489
+Cross-Site Request Forgery (CSRF) Description: Tricks authenticated users into submitting unwanted requests. Related CVEs / References: CVE-2018-7600
+Server-Side Request Forgery (SSRF) Description: Forces a server to make requests to internal or external resources. Related CVEs / References: CVE-2019-19781, CVE-2021-26855
+Remote Code Execution (RCE) Description: Allows attackers to execute arbitrary code on a target system. Related CVEs / References: CVE-2021-44228, CVE-2017-5638
+Command Injection Description: Executes operating system commands through vulnerable input. Related CVEs / References: CVE-2014-6271
+Directory Traversal Description: Accesses files outside the intended directory using path manipulation. Related CVEs / References: CVE-2021-41773
+File Inclusion (LFI/RFI) Description: Loads unintended local or remote files. Related CVEs / References: CVE-2018-9206
+Insecure Deserialization Description: Abuses serialized objects to execute code or alter logic. Related CVEs / References: CVE-2015-4852
+XML External Entity (XXE) Description: Uses malicious XML entities to read files or perform SSRF. Related CVEs / References: CVE-2017-9805
+Buffer Overflow Description: Overwrites memory to crash or execute code. Related CVEs / References: CVE-2017-0144
+Heap Overflow Description: Corrupts heap memory to gain code execution. Related CVEs / References: CVE-2021-34484
+Use-After-Free Description: Uses memory after it has been freed. Related CVEs / References: CVE-2021-30551
+Race Condition Description: Exploits timing issues between concurrent operations. Related CVEs / References: CVE-2021-3156
+Authentication Bypass Description: Circumvents login or identity verification. Related CVEs / References: CVE-2022-1388
+Privilege Escalation Description: Obtains higher privileges than intended. Related CVEs / References: CVE-2021-4034
+Broken Access Control Description: Accesses resources without authorization. Related CVEs / References: CVE-2019-0211
+Session Hijacking Description: Steals or reuses valid session tokens. Related CVEs / References: CVE-2023-34362
+Credential Stuffing Description: Uses leaked credentials to log into accounts. Related CVEs / References: Related: MITRE ATT&CK T1110.004 (no single CVE)
+Password Spraying Description: Attempts common passwords across many accounts. Related CVEs / References: Related: MITRE ATT&CK T1110.003
+DNS Cache Poisoning Description: Injects false DNS records. Related CVEs / References: CVE-2020-25705
+ARP Spoofing Description: Poisons ARP tables for man-in-the-middle attacks. Related CVEs / References: Common network attack; no standard CVE
+Man-in-the-Middle (MITM) Description: Intercepts and alters communications. Related CVEs / References: CVE-2023-48795 (Terrapin SSH)
+Denial of Service (DoS) Description: Exhausts resources to disrupt service. Related CVEs / References: CVE-2023-44487
+Distributed DoS (DDoS) Description: Uses many compromised systems to overwhelm targets. Related CVEs / References: CVE-2023-44487
+Ransomware Description: Encrypts data and demands payment. Related CVEs / References: Related: CVE-2017-0144
+Phishing Description: Tricks users into revealing credentials or installing malware. Related CVEs / References: Technique; no single CVE
+Supply Chain Attack Description: Compromises trusted software or dependencies. Related CVEs / References: CVE-2021-44228, SolarWinds incident
+Container Escape Description: Breaks out of a container to the host. Related CVEs / References: CVE-2019-5736
+Kubernetes Misconfiguration Description: Abuses weak RBAC, exposed dashboards, or insecure configs. Related CVEs / References: CVE-2018-1002105
+Cloud Metadata Attack Description: Steals cloud credentials from metadata services via SSRF. Related CVEs / References: CVE-2019-19781
+Zero-Day Exploit Description: Targets an unknown or unpatched vulnerability. Related CVEs / References: Varies by disclosure
+Firmware Attack Description: Compromises BIOS/UEFI or device firmware. Related CVEs / References: CVE-2022-21894
+Bluetooth Attack Description: Targets Bluetooth pairing or protocol flaws. Related CVEs / References: CVE-2020-0022
+Wi-Fi Attack Description: Targets wireless protocol weaknesses. Related CVEs / References: CVE-2023-52424
+IoT Attack Description: Compromises internet-connected embedded devices. Related CVEs / References: CVE-2021-20090
+API Abuse Description: Exploits weak authentication, authorization, or validation in APIs. Related CVEs / References: CVE-2023-34362
+Business Logic Attack Description: Abuses intended workflows rather than software bugs. Related CVEs / References: Application-specific; no single CVE
